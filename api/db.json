@@ -1,0 +1,414 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Familiarity with React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com",
+          "completed": false
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Native Development",
+      "instructor": "Jane Smith",
+      "description": "Take your React Native skills to the next level with advanced topics and real-world projects.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Experience with Redux"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced Component Styling",
+          "content": "Learn advanced styling techniques for React Native components."
+        },
+        {
+          "week": 2,
+          "topic": "State Management with Redux",
+          "content": "Implement state management using Redux in React Native."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Eve Wilson",
+          "email": "eve@example.com",
+          "completed": false
+        },
+        {
+          "id": 104,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "React Native for Beginners",
+      "instructor": "Sarah Johnson",
+      "description": "A beginner-friendly course to kickstart your journey into mobile app development with React Native.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "6 weeks",
+      "schedule": "Saturdays and Sundays, 10:00 AM - 12:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Getting Started with React Native",
+          "content": "Setting up the development environment and your first React Native app."
+        },
+        {
+          "week": 2,
+          "topic": "Building User Interfaces",
+          "content": "Creating user interfaces with React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Grace Miller",
+          "email": "grace@example.com",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "React Native for Designers",
+      "instructor": "Emily White",
+      "description": "Learn how to design and style beautiful mobile apps using React Native.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic design principles",
+        "Familiarity with CSS"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Mobile Design",
+          "content": "Understanding the principles of mobile app design."
+        },
+        {
+          "week": 2,
+          "topic": "Creating Responsive Layouts",
+          "content": "Designing responsive layouts with React Native."
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "Oliver Davis",
+          "email": "oliver@example.com",
+          "completed": false
+        },
+        {
+          "id": 108,
+          "name": "Isabella Wilson",
+          "email": "isabella@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "React Native with Firebase",
+      "instructor": "Michael Anderson",
+      "description": "Explore building real-time applications with React Native and Firebase integration.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "9 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic Firebase knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Firebase",
+          "content": "Getting started with Firebase and its features."
+        },
+        {
+          "week": 2,
+          "topic": "Real-time Data Sync",
+          "content": "Implement real-time data synchronization with Firebase."
+        }
+      ],
+      "students": [
+        {
+          "id": 109,
+          "name": "Liam Brown",
+          "email": "Liam@example.com",
+          "completed": false
+        },
+        {
+          "id": 110,
+          "name": "Sophia Hall",
+          "email": "sophia@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "React Native for E-Commerce",
+      "instructor": "Daniel Garcia",
+      "description": "Learn to build mobile e-commerce apps using React Native and integrate payment gateways.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "10 weeks",
+      "schedule": "Saturdays and Sundays, 2:00 PM - 4:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic e-commerce understanding"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Setting Up an E-Commerce App",
+          "content": "Creating the foundation of an e-commerce app."
+        },
+        {
+          "week": 2,
+          "topic": "Integrating Payment Gateways",
+          "content": "Adding payment gateways to the app for transactions."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Grace Miller",
+          "email": "grace@example.com",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "React Native and GraphQL",
+      "instructor": "Sophie Turner",
+      "description": "Combine the power of React Native and GraphQL for building modern mobile apps.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic understanding of GraphQL"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Getting Started with GraphQL",
+          "content": "Introduction to GraphQL and its core concepts."
+        },
+        {
+          "week": 2,
+          "topic": "GraphQL Data Fetching",
+          "content": "Fetching data with GraphQL in React Native."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Grace Miller",
+          "email": "grace@example.com",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "React Native for Healthcare Apps",
+      "instructor": "Olivia Davis",
+      "description": "Explore the development of healthcare applications using React Native.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 5:30 PM - 7:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic healthcare domain understanding"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Healthcare App Requirements",
+          "content": "Understanding the requirements of healthcare apps."
+        },
+        {
+          "week": 2,
+          "topic": "Patient Data Management",
+          "content": "Managing patient data securely in healthcare apps."
+        }
+      ],
+      "students": [
+        {
+          "id": 115,
+          "name": "James Johnson",
+          "email": "james@example.com",
+          "completed": false
+        },
+        {
+          "id": 116,
+          "name": "Harper Brown",
+          "email": "harper@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "React Native for Social Networking",
+      "instructor": "Lucas Smith",
+      "description": "Learn to build social networking apps using React Native with features like user profiles and posts.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "10 weeks",
+      "schedule": "Saturdays and Sundays, 4:00 PM - 6:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic social networking understanding"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Social Networking App Design",
+          "content": "Designing user-friendly social networking apps."
+        },
+        {
+          "week": 2,
+          "topic": "User Profiles and Posts",
+          "content": "Implementing user profiles and post features."
+        }
+      ],
+      "students": [
+        {
+          "id": 117,
+          "name": "Aiden Taylor",
+          "email": "aiden@example.com",
+          "completed": false
+        },
+        {
+          "id": 118,
+          "name": "Ella Lewis",
+          "email": "ella@example.com",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "React Native for Travel Apps",
+      "instructor": "Logan Harris",
+      "description": "Develop mobile apps for travel and tourism using React Native with geolocation features.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://picsum.photos/400/400",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React Native knowledge",
+        "Basic travel and tourism domain understanding"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Travel App Design",
+          "content": "Designing user-friendly travel apps with geolocation features."
+        },
+        {
+          "week": 2,
+          "topic": "Geolocation Integration",
+          "content": "Integrating geolocation for finding nearby places."
+        }
+      ],
+      "students": [
+        {
+          "id": 119,
+          "name": "Mason Turner",
+          "email": "mason@example.com",
+          "completed": false
+        },
+        {
+          "id": 105,
+          "name": "Grace Miller",
+          "email": "grace@example.com",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "courses": [
+        {
+          "id": 1,
+          "name": "Math 101",
+          "status": "closed"
+        },
+        {
+          "id": 2,
+          "name": "History 101",
+          "status": "closed"
+        }
+      ]
+    }
+  ]
+}
